@@ -70,12 +70,13 @@ a {
   cursor: pointer;
 }
 
-.profile-card__social-links ul .active:hover {
+.profile-card__social-links ul li:hover {
   background-color: var(--green);
 }
 
-.profile-card__social-links ul li .active-link:hover {
+.profile-card__social-links ul li a:hover {
   color: var(--off-black);
+  font-weight: 600;
 }
 
 ul {
